@@ -14,7 +14,7 @@ $ git glone https://github.com/jjordy/monorepo
 - npm `>= 5`
 - yarn `>= 1.7`
 
-# Docker
+# Commands
 
 Typescript monorepo setup
 
