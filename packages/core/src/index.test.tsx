@@ -1,8 +1,8 @@
 import React from "react"
-import { Component } from "./"
+import { useForm } from "./"
 
 describe("Component", () => {
   it("Should be defined", () => {
-    expect(Component).toBeDefined()
+    expect(useForm).toBeDefined()
   })
 })

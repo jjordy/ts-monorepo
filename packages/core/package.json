@@ -1,10 +1,10 @@
 {
-  "name": "@monorepo/core",
-  "version": "0.0.1",
-  "description": "React Library",
+  "name": "@jjordy/use-form",
+  "version": "0.0.3",
+  "description": "React Hook for simple form usage.",
   "author": "jjordy",
   "license": "MIT",
-  "repository": "jjordy/monorepo/core",
+  "repository": "jjordy/use-form/core",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -56,5 +56,8 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "immer": "^1.12.1"
   }
 }
