@@ -1,3 +1,3 @@
-export default function NodeUtil() {
+export default function util() {
   return ""
 }

@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "@jjordy/ts-monorepo",
   "private": true,
   "license": "MIT",
   "scripts": {
