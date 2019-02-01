@@ -1,0 +1,21 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "dev": "lerna exec --parallel npm run dev",
+    "clean": "lerna clean -y",
+    "precommit": "pretty-quick --staged",
+    "start": "lerna exec --parallel npm run dev",
+    "test": "lerna exec --ignore storybook --no-bail --concurrency 1 npm run test"
+  },
+  "dependencies": {
+    "lerna": "^3.10.7"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

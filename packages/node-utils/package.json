@@ -1,0 +1,28 @@
+{
+  "name": "@monorepo/node-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/src/index.js",
+  "types": "./lib/src/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc -b .",
+    "test": "echo ./lib/index.js"
+  },
+  "keywords": [],
+  "author": "Jordan Addison <jordanrileyaddison@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "nodemon": "^1.18.9",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1"
+  }
+}
